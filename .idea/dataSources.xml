@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Apache Derby (Embedded) - 1.feature" uuid="76bc0086-3b48-4754-bc20-81f786a1ed67">
+      <driver-ref>derby.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby:$PROJECT_DIR$/src/test/resources/features/../../../../../../Downloads/1.feature</jdbc-url>
+      <working-dir>$ProjectFileDir$$MAVEN_REPOSITORY$</working-dir>
+      <vm-env>
+        <property name="1.Given as a user/ track driver on vytrack Home page as a Truck driver    When user hover the Fleet module     And user Scroll down to Fleet functionalities     And user click Vehicle     Then user should be able to see all Vehicle details 1.Given as a user/ track driver on vytrack Home page as a Truck driver    When user hover the Fleet module     And user Scroll down to Fleet functionalities     And user click Vehicle     Then user should be able to see all Vehicle details" />
+      </vm-env>
+    </data-source>
+    <data-source source="LOCAL" name="HSQLDB (Local)" uuid="656af61b-2794-4171-ae06-1d0fdd2b28b1">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/src/test/resources/features/../../../../../../Downloads/1 (1).feature/</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="HSQLDB (Local) [2]" uuid="04a297e3-2c05-4a46-a825-8b63e48c7e4f">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/src/test/resources/features/../../../../../../Downloads/1 (2).feature/</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="SQLite - 1.feature" uuid="41d7ca6b-2397-451a-a0cc-163e4321f8a5">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/src/test/resources/../../../../../Downloads/1.feature</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
