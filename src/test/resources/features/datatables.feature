@@ -1,6 +1,7 @@
 Feature: Examples for DataTable
 
   # DataTable-List
+  @datasystem1234
   Scenario: Menu Options for driver
     Given user is on the login page
     When user enters the "driver" information
@@ -12,6 +13,7 @@ Feature: Examples for DataTable
 
 
         # DataTable-List
+  @datasystem1234
   Scenario: Menu Options for salesmanager
     Given user is on the login page
     When user enters the "sales manager" information
@@ -26,7 +28,24 @@ Feature: Examples for DataTable
       | System             |
 
 
-  @wip
+            # DataTable-List
+  @datasystem1234
+  Scenario: Menu Options for storemanager
+    Given user is on the login page
+    When user enters the "store manager" information
+    Then user should be able to see following modules
+      | Dashboards         |
+      | Fleet              |
+      | Customers          |
+      | Sales              |
+      | Activities         |
+      | Marketing          |
+      | Reports & Segments |
+      | System             |
+
+
+
+  @datasystem1234
   Scenario: Login with given information
     Given user is on the login page
     When user enters below credentials
@@ -37,6 +56,7 @@ Feature: Examples for DataTable
       | lastname  | Doe  |
 
 
+  @datasystem1234
   Scenario: verify each product price
     Given User is on the HomePage
     Then User should be able to see expected prices in following products
@@ -51,6 +71,7 @@ Feature: Examples for DataTable
       | Monitors | ASUS Full HD      | 230           |
 
 
+  @datasystem1234
   Scenario: verify each product price listOfList
     Given User is on the HomePage
     Then User should be able to see expected prices in following products with listOflist
@@ -66,7 +87,7 @@ Feature: Examples for DataTable
 
     #Map<String,List<String,String>>
 
-  @MapOfList
+  @datasystem1234   @MapOfList
   Scenario: Verify students name in discord
     Then User should be able to see following names in their groups
       | Group1 | Gulay Turgut | Shina                 | Ziba               |

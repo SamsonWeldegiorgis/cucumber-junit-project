@@ -1,6 +1,5 @@
 package com.cydeo.pages;
 
-import com.cydeo.step_definitions.GoogleSearch;
 import com.cydeo.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

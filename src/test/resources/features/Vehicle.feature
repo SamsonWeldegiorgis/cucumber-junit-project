@@ -2,7 +2,7 @@ Feature: Login to the page
 
   User Story: The user should be able to see all Vehicle details
 
-  @user
+  @user123
   Scenario:  Login as a user
     When user hover the Fleet module
     And user Scroll down to Fleet functionalities

@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features" , // path of feature file, give direction
         glue = "com/cydeo/step_definitions",  // implementation , step definitions package,,,,glue-step class definitions
         dryRun = false ,   // don't run my step-definition but check if any step is missing snippet ...true= get snippet
-        tags =   "@smoke" // keyword of the feauture      @wip or @smoke         // @Regression  // @wip or @smoke
+        tags =   "" // keyword of the feauture      @wip or @smoke         // @Regression  // @wip or @smoke
 
       // keyword of the feauture
         // @Regression and not student  =( prints all regression but NOT student)

@@ -1,15 +1,14 @@
 Feature: Passing multiple parameters to the step
 
-  @dataTable
+  @dataTable123
   Scenario: User searches for multiple items
     Given User is on Google search page
-    Then User should be able to search for the following :
+    Then User should be able to search for following:
+      | java         |
+      | selenium     |
+      | cucumber bdd |
+      | data driven  |
+      | wooden spoon |
 
-      | java          |
-      | selenium      |
-      | cucumber bdd  |
-      | QA automation |
-      | Wooden Spoon  |
-      | data driven   |
-
-
+# option + Command + L
+# CTRL+ALT+L

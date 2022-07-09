@@ -16,7 +16,7 @@ Feature: Web table user order feature
     And user enters process order button
     Then user should see "Sherlock Holmes" in first row of the web table
 
-  @wiprunner
+  @wiprunner1233
   Scenario Template:
     Given user is already logged in and on order page
     When user selects product type "<productType>"
